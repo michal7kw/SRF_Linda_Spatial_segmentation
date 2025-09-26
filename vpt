@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# This script is a wrapper for the vpt command in the conda environment
+
+# Activate the conda environment
+eval "$(conda shell.bash hook)"
+conda activate /beegfs/scratch/ric.sessa/kubacki.michal/conda/envs/vpt
+
+# Call the actual vpt command with all arguments
+/beegfs/scratch/ric.sessa/kubacki.michal/conda/envs/vpt/bin/vpt "$@"

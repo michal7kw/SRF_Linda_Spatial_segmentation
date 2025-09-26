@@ -1,0 +1,9 @@
+sample_id,total_cells,total_clusters,small_clusters,small_cluster_list,cells_in_small_clusters
+p7_R1_mut,43547,21,0,[],0
+p7_R2_ctrl,53513,21,0,[],0
+p30_R4p_ctrl,44424,22,0,[],0
+p0_R5p_mut,40730,20,0,[],0
+p0_R6_ctrl,24759,21,0,[],0
+e16_R1_mut,36955,22,0,[],0
+e16_R2_ctrl,40767,23,0,[],0
+p30_R3_mut,43284,22,0,[],0

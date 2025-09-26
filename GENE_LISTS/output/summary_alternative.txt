@@ -1,0 +1,121 @@
+Starting the gene group formatting process at 2025-07-18 08:43:54...
+🚀 Starting the gene group formatting process...
+
+Processing file: 'hippo.csv' to create a separate output...
+✅ Successfully loaded 'export.csv' for processing 'hippo.csv'.
+  - Assigning group 'Granule cells' with color #E6194B...
+    - Warning: Gene 'Pcp4' from group 'Granule cells' was not found in 'export.csv' and will be skipped.
+    - Warning: Gene 'Snap25' from group 'Granule cells' was not found in 'export.csv' and will be skipped.
+    - Assigned 36 of 38 genes to this group.
+  - Assigning group 'Pyramidal cells' with color #3CB44B...
+    - Assigned 46 of 46 genes to this group.
+  - Assigning group 'GABA interneurons' with color #FFE119...
+    - Warning: Gene 'Adarb2' from group 'GABA interneurons' was not found in 'export.csv' and will be skipped.
+    - Warning: Gene '1' from group 'GABA interneurons' was not found in 'export.csv' and will be skipped.
+    - Assigned 45 of 47 genes to this group.
+  - Assigning group 'Mossy cells' with color #4363D8...
+    - Assigned 36 of 36 genes to this group.
+  - Assigning group 'Cajal-Retzius' with color #F58231...
+    - Warning: Gene 'Pcp4' from group 'Cajal-Retzius' was not found in 'export.csv' and will be skipped.
+    - Assigned 26 of 27 genes to this group.
+
+-----------------------------------------------
+
+Summary for 'hippo.csv':
+Total unmatched genes: 5
+Number of genes overwritten: 63
+Genes overwritten: Bhlhe22, Cacna2d1, Cd24a, Cplx2, Dcx, Gda, Igfbpl1, Neurod1, Nrp2, Slc17a7, Sox11, Cd24a, Cdk5r1, Chl1, Clstn2, Cnr1, Cntnap2, Dcx, Elavl2, Elavl4, Mpped1, Myt1l, Nrp2, Snhg11, Sox4, Bin1, Cacna2d1, Camk4, Cdk5r1, Cdk5r2, Chl1, Clstn2, Cnr1, Cplx2, Dnajc27, Dync1i1, Elavl2, Elavl4, Foxg1, Fxyd7, Gabra5, Kcnc2, Myt1l, Neurod2, Neurod6, Nr4a3, Nrp2, Prickle2, Rasgrp1, Rbfox3, Robo2, Slc17a7, Snhg11, Bin1, Cacna2d1, Calb2, Clstn2, Cntnap2, Dync1i1, Elavl4, Reln, Robo2, Snhg11
+
+✅ Columns reordered to match original format.
+
+✅ Success! The file './output\hippo_import_ready.csv' has been created with the correct format.
+
+Processing file: 'hippo_dev.csv' to create a separate output...
+✅ Successfully loaded 'export.csv' for processing 'hippo_dev.csv'.
+  - Assigning group 'Neural stem cells' with color #E6194B...
+    - Warning: Gene 'Snap25' from group 'Neural stem cells' was not found in 'export.csv' and will be skipped.
+    - Assigned 48 of 49 genes to this group.
+  - Assigning group 'Radial glia-like cells' with color #3CB44B...
+    - Assigned 21 of 21 genes to this group.
+  - Assigning group 'Intermediate progenitors' with color #FFE119...
+    - Assigned 44 of 44 genes to this group.
+  - Assigning group 'Neuroblast' with color #4363D8...
+    - Assigned 30 of 30 genes to this group.
+
+-----------------------------------------------
+
+Summary for 'hippo_dev.csv':
+Total unmatched genes: 1
+Number of genes overwritten: 35
+Genes overwritten: Aldoc, Fabp7, Gfap, Hopx, Id3, Sox2, Sox9, Btg1, Eomes, Fabp7, Fos, Hes5, Id3, Jun, Lhx2, Pax6, Sox11, Sox2, Sox9, Thrsp, Top2a, Vim, Cdk4, Dcx, Elavl2, Elavl4, Emx1, Fos, Igfbpl1, Lhx2, Mex3a, Neurod1, Nfix, Sox11, Sox4
+
+✅ Columns reordered to match original format.
+
+✅ Success! The file './output\hippo_dev_import_ready.csv' has been created with the correct format.
+
+Processing file: 'hippo_dev2.csv' to create a separate output...
+✅ Successfully loaded 'export.csv' for processing 'hippo_dev2.csv'.
+  - Assigning group 'Hippocampal migration' with color #E6194B...
+    - Assigned 18 of 18 genes to this group.
+  - Assigning group 'General cell migration' with color #3CB44B...
+    - Assigned 102 of 102 genes to this group.
+  - Assigning group 'General axonal guidance' with color #FFE119...
+    - Assigned 162 of 162 genes to this group.
+  - Assigning group 'General cell adhesion' with color #4363D8...
+    - Assigned 110 of 110 genes to this group.
+
+-----------------------------------------------
+
+Summary for 'hippo_dev2.csv':
+Total unmatched genes: 0
+Number of genes overwritten: 31
+Genes overwritten: Cdk5, Cdk5r1, Cdk5r2, Cxcl12, Dab1, Disc1, Lrp8, Cdk5, Cxcl12, Cxcr4, Epha4, Ephb1, Ephb2, Ephb6, Ntn1, Rac1, Rhoa, Robo1, Rras, Sema3A, Sema6A, Shh, Slit2, Srgap2, Itgb1, L1Cam, Lrrc4, Lrrc4C, Ntng1, Ntng2, Vcan
+
+✅ Columns reordered to match original format.
+
+✅ Success! The file './output\hippo_dev2_import_ready.csv' has been created with the correct format.
+
+Processing file: 'bp_others.csv' to create a separate output...
+✅ Successfully loaded 'export.csv' for processing 'bp_others.csv'.
+  - Assigning group 'Epilepsy' with color #E6194B...
+    - Warning: Gene 'Snap25' from group 'Epilepsy' was not found in 'export.csv' and will be skipped.
+    - Assigned 103 of 104 genes to this group.
+  - Assigning group 'SETBP1 related' with color #3CB44B...
+    - Assigned 48 of 48 genes to this group.
+
+-----------------------------------------------
+
+Summary for 'bp_others.csv':
+Total unmatched genes: 1
+Number of genes overwritten: 2
+Genes overwritten: Cul3, Mef2c
+
+✅ Columns reordered to match original format.
+
+✅ Success! The file './output\bp_others_import_ready.csv' has been created with the correct format.
+
+Processing file: 'synapses.csv' to create a separate output...
+✅ Successfully loaded 'export.csv' for processing 'synapses.csv'.
+  - Assigning group 'GABAergic synapses' with color #E6194B...
+    - Assigned 67 of 67 genes to this group.
+  - Assigning group 'Glutamatergic synapses' with color #3CB44B...
+    - Assigned 94 of 94 genes to this group.
+  - Assigning group 'Synaptic vesicles cycle' with color #FFE119...
+    - Warning: Gene 'Snap25' from group 'Synaptic vesicles cycle' was not found in 'export.csv' and will be skipped.
+    - Assigned 56 of 57 genes to this group.
+  - Assigning group 'Synapse proteins' with color #4363D8...
+    - Warning: Gene 'Snap25' from group 'Synapse proteins' was not found in 'export.csv' and will be skipped.
+    - Assigned 80 of 81 genes to this group.
+
+-----------------------------------------------
+
+Summary for 'synapses.csv':
+Total unmatched genes: 2
+Number of genes overwritten: 89
+Genes overwritten: Adcy1, Adcy2, Adcy3, Adcy4, Cacna1A, Gls, Gls2, Glul, Gnai1, Gnai2, Gnai3, Gnao1, Gnb1, Gnb2, Gnb3, Gnb4, Gnb5, Gng10, Gng11, Gng12, Gng13, Gng2, Gng3, Gng4, Gng5, Gng7, Gng8, Gngt1, Gngt2, Prkaca, Prkacb, Prkcg, Slc38A1, Slc38A2, Slc38A3, Cacna1A, Cacna1B, Nsf, Slc17A6, Slc17A7, Slc17A8, Slc1A1, Slc1A2, Slc1A3, Slc1A6, Slc1A7, Slc32A1, Slc6A1, Slc6A11, Slc6A12, Slc6A13, Adcy3, Dlg4, Gad1, Gad2, Gnai1, Gnai2, Gnai3, Gnb1, Gnb2, Gnb3, Gnb4, Gnb5, Gng10, Gng11, Gng12, Gng13, Gng2, Gng3, Gng4, Gng5, Gng7, Gng8, Gngt1, Gngt2, Grin1, Grin2A, Grin2B, Plcb1, Prkaca, Prkacb, Prkca, Rab3A, Stx1A, Stx1B, Stx2, Stx3, Stxbp1, Vamp2
+
+✅ Columns reordered to match original format.
+
+✅ Success! The file './output\synapses_import_ready.csv' has been created with the correct format.
+
+🎉 All gene group files processed.

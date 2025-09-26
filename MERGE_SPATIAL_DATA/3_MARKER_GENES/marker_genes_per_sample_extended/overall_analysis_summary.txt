@@ -1,0 +1,34 @@
+Marker Genes and Cluster Similarity Analysis - Overall Summary
+============================================================
+
+Analysis completed for 8 samples:
+- p7_R1_mut
+- p7_R2_ctrl
+- p30_R4p_ctrl
+- p0_R5p_mut
+- p0_R6_ctrl
+- e16_R1_mut
+- e16_R2_ctrl
+- p30_R3_mut
+
+Overall Statistics:
+- Total cells across all samples: 327,979
+- Total genes: 960
+- Samples processed: 8
+
+Per-Sample Results:
+- p7_R1_mut: 43547 cells, 0 small clusters extended
+- p7_R2_ctrl: 53513 cells, 0 small clusters extended
+- p30_R4p_ctrl: 44424 cells, 0 small clusters extended
+- p0_R5p_mut: 40730 cells, 0 small clusters extended
+- p0_R6_ctrl: 24759 cells, 0 small clusters extended
+- e16_R1_mut: 36955 cells, 0 small clusters extended
+- e16_R2_ctrl: 40767 cells, 0 small clusters extended
+- p30_R3_mut: 43284 cells, 0 small clusters extended
+
+Analysis Parameters:
+- Differential expression method: Wilcoxon rank-sum test
+- Number of marker genes per cluster: 50
+- Distance metric for clustering: Correlation distance
+- Linkage method: Ward
+- Small cluster threshold: < 50 cells (extended with all other cells from the same cluster)

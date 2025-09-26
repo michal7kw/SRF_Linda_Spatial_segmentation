@@ -1,0 +1,5 @@
+time_point,total_genes,significant_genes,upregulated,downregulated,pct_significant
+e16,960,610,2,608,63.541666666666664
+p7,960,582,0,582,60.62499999999999
+p0,960,231,155,76,24.0625
+p30,960,408,406,2,42.5

@@ -1,0 +1,18 @@
+Sample: p30_R3_mut
+================
+
+Dataset Information:
+- Total cells in sample: 43,284
+- Cells after extension: 43,284
+- Total genes: 960
+- Total clusters in sample: 22
+- Clusters after extension: 22
+
+Files Generated:
+1. marker_genes.csv - Complete marker gene results
+2. top_10_marker_genes.csv - Top marker genes per cluster
+3. heatmap_p30_R3_mut_marker_genes_heatmap.png - Marker genes heatmap
+4. dotplot_p30_R3_mut_marker_genes_dotplot.png - Marker genes dotplot
+5. p30_R3_mut_cluster_dendrogram.png - Hierarchical clustering dendrogram
+6. p30_R3_mut_cluster_correlation.png - Cluster correlation heatmap
+7. p30_R3_mut_correlation_matrix.csv - Correlation matrix data

@@ -1,0 +1,19 @@
+ROI-Based Temporal Markers Analysis Summary
+==================================================
+
+Analysis Parameters:
+- Bin size: 100 μm
+- Minimum transcripts per bin: 10
+- ROI group analyzed: hippo
+- P-value threshold: 0.05
+- Log2FC threshold: 0.5
+
+Results Summary:
+time_point  total_genes  significant_genes  upregulated  downregulated  pct_significant
+       e16          960                610            2            608        63.541667
+        p7          960                582            0            582        60.625000
+        p0          960                231          155             76        24.062500
+       p30          960                408          406              2        42.500000
+
+Total samples processed: 8
+Output directory: MERGE_SPATIAL_DATA/RUN_6-7/7_TEMPORAL_MARKERS/roi_results

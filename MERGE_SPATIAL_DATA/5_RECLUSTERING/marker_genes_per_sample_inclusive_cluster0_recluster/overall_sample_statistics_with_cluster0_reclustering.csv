@@ -1,0 +1,9 @@
+sample_id,total_cells,original_total_clusters,final_total_clusters,clusters_analyzed_for_de,had_cluster0,cluster0_reclustered
+p7_R1_mut,5073,24,34,33,True,True
+p7_R2_ctrl,9333,24,34,34,True,True
+p30_R4p_ctrl,7910,23,33,32,True,True
+p0_R5p_mut,7511,22,32,32,True,True
+p0_R6_ctrl,4445,24,34,34,True,True
+e16_R1_mut,3019,23,33,28,True,True
+e16_R2_ctrl,3745,20,23,22,True,True
+p30_R3_mut,4078,24,29,25,True,True

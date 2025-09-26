@@ -1,0 +1,51 @@
+CLUSTER EXTENSION SUMMARY
+============================================================
+
+This file shows which clusters would be 'extended' in marker gene analysis.
+Extended clusters are those with <50 cells in a sample's ROI.
+For these clusters, marker gene analysis includes ALL cells from the
+same cluster across the entire dataset for better statistical power.
+
+Sample: p7_R1_mut
+  Total clusters: 21
+  Large clusters (≥50 cells): 21 - ['0', '1', '2', '3', '4', '5', '6', '7', '8', '10', '9', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20']
+  Small clusters (<50 cells, EXTENDED): 0 - []
+
+Sample: p7_R2_ctrl
+  Total clusters: 21
+  Large clusters (≥50 cells): 21 - ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20']
+  Small clusters (<50 cells, EXTENDED): 0 - []
+
+Sample: p30_R4p_ctrl
+  Total clusters: 22
+  Large clusters (≥50 cells): 22 - ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21']
+  Small clusters (<50 cells, EXTENDED): 0 - []
+
+Sample: p0_R5p_mut
+  Total clusters: 20
+  Large clusters (≥50 cells): 20 - ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19']
+  Small clusters (<50 cells, EXTENDED): 0 - []
+
+Sample: p0_R6_ctrl
+  Total clusters: 21
+  Large clusters (≥50 cells): 21 - ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20']
+  Small clusters (<50 cells, EXTENDED): 0 - []
+
+Sample: e16_R1_mut
+  Total clusters: 22
+  Large clusters (≥50 cells): 22 - ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21']
+  Small clusters (<50 cells, EXTENDED): 0 - []
+
+Sample: e16_R2_ctrl
+  Total clusters: 23
+  Large clusters (≥50 cells): 23 - ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22']
+  Small clusters (<50 cells, EXTENDED): 0 - []
+
+Sample: p30_R3_mut
+  Total clusters: 22
+  Large clusters (≥50 cells): 22 - ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '12', '11', '13', '14', '15', '16', '17', '18', '19', '20', '21']
+  Small clusters (<50 cells, EXTENDED): 0 - []
+
+OVERALL SUMMARY:
+  Total large clusters across all samples: 172
+  Total small clusters that will be extended: 0

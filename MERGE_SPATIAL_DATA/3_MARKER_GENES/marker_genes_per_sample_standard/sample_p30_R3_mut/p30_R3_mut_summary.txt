@@ -1,0 +1,32 @@
+Sample: p30_R3_mut
+================
+Dataset Information:
+- Total cells in sample: 4,078
+- Cells after filtering (≥50 cells/cluster): 4,009
+- Total genes: 960
+- Total clusters: 21
+- Valid clusters (≥50 cells): 13
+ 
+Valid Clusters:
+- Cluster 14: 1308 cells
+- Cluster 6: 520 cells
+- Cluster 0: 326 cells
+- Cluster 8: 298 cells
+- Cluster 3: 289 cells
+- Cluster 18: 275 cells
+- Cluster 5: 239 cells
+- Cluster 11: 146 cells
+- Cluster 10: 144 cells
+- Cluster 19: 128 cells
+- Cluster 9: 118 cells
+- Cluster 16: 111 cells
+- Cluster 17: 107 cells
+ 
+Files Generated:
+1. marker_genes.csv - Complete marker gene results
+2. top_10_marker_genes.csv - Top marker genes per cluster
+3. heatmap_p30_R3_mut_marker_genes_heatmap.png - Marker genes heatmap
+4. dotplot_p30_R3_mut_marker_genes_dotplot.png - Marker genes dotplot
+5. p30_R3_mut_cluster_dendrogram.png - Hierarchical clustering dendrogram
+6. p30_R3_mut_cluster_correlation.png - Cluster correlation heatmap
+7. p30_R3_mut_correlation_matrix.csv - Correlation matrix data

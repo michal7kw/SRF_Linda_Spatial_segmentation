@@ -1,0 +1,35 @@
+Sample: p0_R5p_mut
+================
+Dataset Information:
+- Total cells in sample: 7,511
+- Cells after filtering (≥50 cells/cluster): 7,465
+- Total genes: 960
+- Total clusters: 19
+- Valid clusters (≥50 cells): 16
+ 
+Valid Clusters:
+- Cluster 1: 3291 cells
+- Cluster 6: 917 cells
+- Cluster 4: 542 cells
+- Cluster 11: 411 cells
+- Cluster 8: 368 cells
+- Cluster 16: 323 cells
+- Cluster 13: 274 cells
+- Cluster 0: 240 cells
+- Cluster 18: 234 cells
+- Cluster 14: 205 cells
+- Cluster 7: 162 cells
+- Cluster 2: 152 cells
+- Cluster 12: 137 cells
+- Cluster 17: 78 cells
+- Cluster 5: 68 cells
+- Cluster 3: 63 cells
+ 
+Files Generated:
+1. marker_genes.csv - Complete marker gene results
+2. top_10_marker_genes.csv - Top marker genes per cluster
+3. heatmap_p0_R5p_mut_marker_genes_heatmap.png - Marker genes heatmap
+4. dotplot_p0_R5p_mut_marker_genes_dotplot.png - Marker genes dotplot
+5. p0_R5p_mut_cluster_dendrogram.png - Hierarchical clustering dendrogram
+6. p0_R5p_mut_cluster_correlation.png - Cluster correlation heatmap
+7. p0_R5p_mut_correlation_matrix.csv - Correlation matrix data

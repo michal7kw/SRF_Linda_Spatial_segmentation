@@ -1,0 +1,23 @@
+Sample: e16_R1_mut
+================
+Dataset Information:
+- Total cells in sample: 3,019
+- Total genes: 960
+- Original total clusters found: 23
+- Final total clusters (after reclustering): 24
+- Clusters analyzed for DE (with >1 cell): 24
+
+Cluster 0 Reclustering:
+- Original cluster 0 cells: 47
+- Number of subclusters created: 2
+- Subcluster labels: ['0.0', '0.1']
+
+Files Generated:
+1. marker_genes_with_cluster0_reclustered.csv - Complete marker gene results
+2. top_30_marker_genes_with_cluster0_reclustered.csv - Top marker genes per cluster
+3. Various UMAP/Spatial visualization plots
+4. heatmap_e16_R1_mut_marker_genes_with_cluster0_reclustered.png - Marker genes heatmap
+5. dotplot_e16_R1_mut_marker_genes_with_cluster0_reclustered.png - Marker genes dotplot
+6. e16_R1_mut_cluster_dendrogram_with_cluster0_reclustered.png - Hierarchical clustering dendrogram
+7. e16_R1_mut_cluster_correlation_with_cluster0_reclustered.png - Cluster correlation heatmap
+8. e16_R1_mut_correlation_matrix_with_cluster0_reclustered.csv - Correlation matrix data

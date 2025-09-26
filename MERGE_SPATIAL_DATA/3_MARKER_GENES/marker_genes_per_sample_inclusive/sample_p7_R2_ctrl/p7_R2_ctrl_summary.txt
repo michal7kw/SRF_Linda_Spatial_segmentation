@@ -1,0 +1,16 @@
+Sample: p7_R2_ctrl
+================
+Dataset Information:
+- Total cells in sample: 9,333
+- Total genes: 960
+- Total clusters found: 20
+- Clusters analyzed for DE (with >1 cell): 20
+            
+Files Generated:
+1. marker_genes.csv - Complete marker gene results
+2. top_30_marker_genes.csv - Top marker genes per cluster
+3. heatmap_p7_R2_ctrl_marker_genes_heatmap.png - Marker genes heatmap
+4. dotplot_p7_R2_ctrl_marker_genes_dotplot.png - Marker genes dotplot
+5. p7_R2_ctrl_cluster_dendrogram.png - Hierarchical clustering dendrogram
+6. p7_R2_ctrl_cluster_correlation.png - Cluster correlation heatmap
+7. p7_R2_ctrl_correlation_matrix.csv - Correlation matrix data

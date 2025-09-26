@@ -1,0 +1,33 @@
+Sample: p0_R6_ctrl
+================
+Dataset Information:
+- Total cells in sample: 4,445
+- Cells after filtering (≥50 cells/cluster): 4,357
+- Total genes: 960
+- Total clusters: 21
+- Valid clusters (≥50 cells): 14
+ 
+Valid Clusters:
+- Cluster 4: 826 cells
+- Cluster 2: 792 cells
+- Cluster 8: 721 cells
+- Cluster 5: 409 cells
+- Cluster 6: 397 cells
+- Cluster 12: 309 cells
+- Cluster 11: 169 cells
+- Cluster 7: 155 cells
+- Cluster 10: 148 cells
+- Cluster 15: 132 cells
+- Cluster 16: 130 cells
+- Cluster 14: 69 cells
+- Cluster 19: 50 cells
+- Cluster 9: 50 cells
+ 
+Files Generated:
+1. marker_genes.csv - Complete marker gene results
+2. top_10_marker_genes.csv - Top marker genes per cluster
+3. heatmap_p0_R6_ctrl_marker_genes_heatmap.png - Marker genes heatmap
+4. dotplot_p0_R6_ctrl_marker_genes_dotplot.png - Marker genes dotplot
+5. p0_R6_ctrl_cluster_dendrogram.png - Hierarchical clustering dendrogram
+6. p0_R6_ctrl_cluster_correlation.png - Cluster correlation heatmap
+7. p0_R6_ctrl_correlation_matrix.csv - Correlation matrix data

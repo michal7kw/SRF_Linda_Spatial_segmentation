@@ -1,0 +1,23 @@
+Sample: p30_R3_mut
+================
+Dataset Information:
+- Total cells in sample: 4,078
+- Total genes: 960
+- Original total clusters found: 29
+- Final total clusters (after reclustering): 29
+- Clusters analyzed for DE (with >1 cell): 25
+
+Cluster 0 Reclustering (Precomputed):
+- Original cluster 0 cells: 63
+- Number of subclusters created: 6
+- Subcluster labels: ['0.0', '0.1', '0.3', '0.4', '0.6', '0.9']
+
+Files Generated:
+1. marker_genes.csv - Complete marker gene results
+2. top_30_marker_genes.csv - Top marker genes per cluster
+3. Various UMAP/Spatial visualization plots
+4. heatmap_p30_R3_mut_marker_genes.png - Marker genes heatmap
+5. dotplot_p30_R3_mut_marker_genes.png - Marker genes dotplot
+6. p30_R3_mut_cluster_dendrogram.png - Hierarchical clustering dendrogram
+7. p30_R3_mut_cluster_correlation.png - Cluster correlation heatmap
+8. p30_R3_mut_correlation_matrix.csv - Correlation matrix data

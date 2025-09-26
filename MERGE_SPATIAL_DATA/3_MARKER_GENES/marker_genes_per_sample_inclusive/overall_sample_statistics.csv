@@ -1,0 +1,9 @@
+sample_id,total_cells,total_clusters_found,clusters_analyzed_for_de
+p7_R1_mut,5073,21,21
+p7_R2_ctrl,9333,20,20
+p30_R4p_ctrl,7910,20,20
+p0_R5p_mut,7511,19,19
+p0_R6_ctrl,4445,21,21
+e16_R1_mut,3019,19,18
+e16_R2_ctrl,3745,18,17
+p30_R3_mut,4078,21,20

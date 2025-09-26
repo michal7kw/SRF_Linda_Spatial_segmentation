@@ -1,0 +1,9 @@
+sample_id,total_cells,clusters_present_in,avg_contribution_when_present
+p7_R1_mut,5073,21,8.68
+p7_R2_ctrl,9333,20,22.7
+p30_R4p_ctrl,7910,20,17.34
+p0_R5p_mut,7511,19,17.44
+p0_R6_ctrl,4445,21,9.44
+e16_R1_mut,3019,19,11.26
+e16_R2_ctrl,3745,18,20.2
+p30_R3_mut,4078,21,9.99

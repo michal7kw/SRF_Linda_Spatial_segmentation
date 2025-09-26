@@ -1,0 +1,56 @@
+Combined Analysis with Cluster 0 Reclustering - Comprehensive Summary
+================================================================================
+
+Dataset Overview:
+- Total cells across all samples: 45,114
+- Total genes: 960
+- Number of samples: 8
+- Samples analyzed: e16_R1_mut, e16_R2_ctrl, p0_R5p_mut, p0_R6_ctrl, p30_R3_mut, p30_R4p_ctrl, p7_R1_mut, p7_R2_ctrl
+
+Original Clustering:
+- Original cluster 0 cells: 6,012
+
+Combined Cluster 0 Reclustering Results:
+- Reclustering performed: Yes
+- Number of subclusters created: 11
+- Subcluster labels: ['0.0', '0.1', '0.10', '0.2', '0.3', '0.4', '0.5', '0.6', '0.7', '0.8', '0.9']
+
+Final Combined Analysis:
+- Total final clusters: 34
+- Clusters analyzed for differential expression: 34
+- Analysis type: Combined reclustered
+
+Files Generated:
+1. combined_umap_overview.png - Combined UMAP plots side by side
+2. combined_spatial_overview.png - Combined spatial plots side by side
+2. combined_cluster0_subset_analysis.png - Cluster 0 subset analysis plots
+3. marker_genes.csv - Complete combined marker gene results
+4. top_50_marker_genes.csv - Top marker genes per cluster (combined analysis)
+5. heatmap_marker_genes.png - Combined marker genes heatmap
+6. dotplot_marker_genes.png - Combined marker genes dotplot
+7. dendrogram.png - Combined hierarchical clustering dendrogram
+8. clusters_correlation.png - Combined cluster correlation heatmap
+9. clusters_correlation.csv - Combined correlation matrix data
+10. cluster_composition_across_samples.csv - Cluster composition analysis
+11. cluster_cell_count_heatmap.png - Cell count distribution heatmap
+12. cluster_percentage_heatmap.png - Percentage distribution heatmap
+
+Analysis Parameters:
+- Combined differential expression method: Wilcoxon rank-sum test
+- Number of marker genes per cluster: 100 (combined analysis)
+- Distance metric for clustering: Correlation distance
+- Linkage method: Ward
+- Minimum cells per cluster threshold for DE: >1 cell
+- Combined cluster 0 reclustering resolution: 0.8
+- Neighborhood size for reclustering: 30
+
+Key Insights:
+- This analysis performs cluster 0 reclustering on ALL cluster 0 cells combined across samples
+- Enables identification of shared and sample-specific subclusters within cluster 0
+- Provides comprehensive cross-sample comparisons and marker gene analysis
+- Sample composition analysis reveals cluster distribution patterns across samples
+
+Notes:
+- Individual sample analyses are available in the per-sample output directories
+- This combined analysis complements the individual sample analyses
+- Cluster 0 subclusters identified here represent shared patterns across all samples

@@ -1,0 +1,85 @@
+Starting the individual gene group file creation process at 2025-07-18 08:31:36...
+✅ Successfully loaded 'export.csv' as a template.
+
+Processing input file: 'hippo.csv' to extract individual gene groups...
+  - Processing group 'Granule cells'...
+    - Warning: Gene 'Pcp4' from group 'Granule cells' was not found in 'export.csv' and will be skipped.
+    - Warning: Gene 'Snap25' from group 'Granule cells' was not found in 'export.csv' and will be skipped.
+    - Assigned 36 of 38 genes to this group.
+  ✅ Success! The file './output_individual\Granule_cells_import_ready.csv' has been created with the correct format.
+  - Processing group 'Pyramidal cells'...
+    - Assigned 46 of 46 genes to this group.
+  ✅ Success! The file './output_individual\Pyramidal_cells_import_ready.csv' has been created with the correct format.
+  - Processing group 'GABA interneurons'...
+    - Warning: Gene 'Adarb2' from group 'GABA interneurons' was not found in 'export.csv' and will be skipped.
+    - Warning: Gene '1' from group 'GABA interneurons' was not found in 'export.csv' and will be skipped.
+    - Assigned 45 of 47 genes to this group.
+  ✅ Success! The file './output_individual\GABA_interneurons_import_ready.csv' has been created with the correct format.
+  - Processing group 'Mossy cells'...
+    - Assigned 36 of 36 genes to this group.
+  ✅ Success! The file './output_individual\Mossy_cells_import_ready.csv' has been created with the correct format.
+  - Processing group 'Cajal-Retzius'...
+    - Warning: Gene 'Pcp4' from group 'Cajal-Retzius' was not found in 'export.csv' and will be skipped.
+    - Assigned 26 of 27 genes to this group.
+  ✅ Success! The file './output_individual\CajalRetzius_import_ready.csv' has been created with the correct format.
+
+Processing input file: 'hippo_dev.csv' to extract individual gene groups...
+  - Processing group 'Neural stem cells'...
+    - Warning: Gene 'Snap25' from group 'Neural stem cells' was not found in 'export.csv' and will be skipped.
+    - Assigned 48 of 49 genes to this group.
+  ✅ Success! The file './output_individual\Neural_stem_cells_import_ready.csv' has been created with the correct format.
+  - Processing group 'Radial glia-like cells'...
+    - Assigned 21 of 21 genes to this group.
+  ✅ Success! The file './output_individual\Radial_glialike_cells_import_ready.csv' has been created with the correct format.
+  - Processing group 'Intermediate progenitors'...
+    - Assigned 44 of 44 genes to this group.
+  ✅ Success! The file './output_individual\Intermediate_progenitors_import_ready.csv' has been created with the correct format.
+  - Processing group 'Neuroblast'...
+    - Assigned 30 of 30 genes to this group.
+  ✅ Success! The file './output_individual\Neuroblast_import_ready.csv' has been created with the correct format.
+
+Processing input file: 'hippo_dev2.csv' to extract individual gene groups...
+  - Processing group 'Hippocampal migration'...
+    - Assigned 18 of 18 genes to this group.
+  ✅ Success! The file './output_individual\Hippocampal_migration_import_ready.csv' has been created with the correct format.
+  - Processing group 'General cell migration'...
+    - Assigned 102 of 102 genes to this group.
+  ✅ Success! The file './output_individual\General_cell_migration_import_ready.csv' has been created with the correct format.
+  - Processing group 'General axonal guidance'...
+    - Assigned 162 of 162 genes to this group.
+  ✅ Success! The file './output_individual\General_axonal_guidance_import_ready.csv' has been created with the correct format.
+  - Processing group 'General cell adhesion'...
+    - Assigned 110 of 110 genes to this group.
+  ✅ Success! The file './output_individual\General_cell_adhesion_import_ready.csv' has been created with the correct format.
+
+Processing input file: 'bp_others.csv' to extract individual gene groups...
+  - Processing group 'Epilepsy'...
+    - Warning: Gene 'Snap25' from group 'Epilepsy' was not found in 'export.csv' and will be skipped.
+    - Assigned 103 of 104 genes to this group.
+  ✅ Success! The file './output_individual\Epilepsy_import_ready.csv' has been created with the correct format.
+  - Processing group 'SETBP1 related'...
+    - Assigned 48 of 48 genes to this group.
+  ✅ Success! The file './output_individual\SETBP1_related_import_ready.csv' has been created with the correct format.
+
+Processing input file: 'synapses.csv' to extract individual gene groups...
+  - Processing group 'GABAergic synapses'...
+    - Assigned 67 of 67 genes to this group.
+  ✅ Success! The file './output_individual\GABAergic_synapses_import_ready.csv' has been created with the correct format.
+  - Processing group 'Glutamatergic synapses'...
+    - Assigned 94 of 94 genes to this group.
+  ✅ Success! The file './output_individual\Glutamatergic_synapses_import_ready.csv' has been created with the correct format.
+  - Processing group 'Synaptic vesicles cycle'...
+    - Warning: Gene 'Snap25' from group 'Synaptic vesicles cycle' was not found in 'export.csv' and will be skipped.
+    - Assigned 56 of 57 genes to this group.
+  ✅ Success! The file './output_individual\Synaptic_vesicles_cycle_import_ready.csv' has been created with the correct format.
+  - Processing group 'Synapse proteins'...
+    - Warning: Gene 'Snap25' from group 'Synapse proteins' was not found in 'export.csv' and will be skipped.
+    - Assigned 80 of 81 genes to this group.
+  ✅ Success! The file './output_individual\Synapse_proteins_import_ready.csv' has been created with the correct format.
+
+-----------------------------------------------
+
+Total input files processed: 5
+Total individual gene groups extracted: 19
+
+All individual gene group files created.

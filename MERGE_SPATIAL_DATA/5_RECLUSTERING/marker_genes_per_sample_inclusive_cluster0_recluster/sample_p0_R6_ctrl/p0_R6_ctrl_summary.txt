@@ -1,0 +1,23 @@
+Sample: p0_R6_ctrl
+================
+Dataset Information:
+- Total cells in sample: 4,445
+- Total genes: 960
+- Original total clusters found: 34
+- Final total clusters (after reclustering): 34
+- Clusters analyzed for DE (with >1 cell): 34
+
+Cluster 0 Reclustering (Precomputed):
+- Original cluster 0 cells: 479
+- Number of subclusters created: 11
+- Subcluster labels: ['0.0', '0.1', '0.10', '0.2', '0.3', '0.4', '0.5', '0.6', '0.7', '0.8', '0.9']
+
+Files Generated:
+1. marker_genes.csv - Complete marker gene results
+2. top_30_marker_genes.csv - Top marker genes per cluster
+3. Various UMAP/Spatial visualization plots
+4. heatmap_p0_R6_ctrl_marker_genes.png - Marker genes heatmap
+5. dotplot_p0_R6_ctrl_marker_genes.png - Marker genes dotplot
+6. p0_R6_ctrl_cluster_dendrogram.png - Hierarchical clustering dendrogram
+7. p0_R6_ctrl_cluster_correlation.png - Cluster correlation heatmap
+8. p0_R6_ctrl_correlation_matrix.csv - Correlation matrix data

@@ -1,0 +1,31 @@
+Sample: p7_R1_mut
+================
+Dataset Information:
+- Total cells in sample: 5,073
+- Cells after filtering (≥50 cells/cluster): 4,882
+- Total genes: 960
+- Total clusters: 21
+- Valid clusters (≥50 cells): 12
+ 
+Valid Clusters:
+- Cluster 11: 1233 cells
+- Cluster 9: 1052 cells
+- Cluster 2: 851 cells
+- Cluster 1: 383 cells
+- Cluster 8: 323 cells
+- Cluster 5: 297 cells
+- Cluster 6: 247 cells
+- Cluster 14: 130 cells
+- Cluster 17: 110 cells
+- Cluster 12: 104 cells
+- Cluster 19: 99 cells
+- Cluster 4: 53 cells
+ 
+Files Generated:
+1. marker_genes.csv - Complete marker gene results
+2. top_10_marker_genes.csv - Top marker genes per cluster
+3. heatmap_p7_R1_mut_marker_genes_heatmap.png - Marker genes heatmap
+4. dotplot_p7_R1_mut_marker_genes_dotplot.png - Marker genes dotplot
+5. p7_R1_mut_cluster_dendrogram.png - Hierarchical clustering dendrogram
+6. p7_R1_mut_cluster_correlation.png - Cluster correlation heatmap
+7. p7_R1_mut_correlation_matrix.csv - Correlation matrix data

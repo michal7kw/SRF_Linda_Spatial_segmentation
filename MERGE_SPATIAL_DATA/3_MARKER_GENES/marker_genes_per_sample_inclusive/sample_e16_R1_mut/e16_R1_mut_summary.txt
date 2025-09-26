@@ -1,0 +1,16 @@
+Sample: e16_R1_mut
+================
+Dataset Information:
+- Total cells in sample: 3,019
+- Total genes: 960
+- Total clusters found: 19
+- Clusters analyzed for DE (with >1 cell): 18
+            
+Files Generated:
+1. marker_genes.csv - Complete marker gene results
+2. top_30_marker_genes.csv - Top marker genes per cluster
+3. heatmap_e16_R1_mut_marker_genes_heatmap.png - Marker genes heatmap
+4. dotplot_e16_R1_mut_marker_genes_dotplot.png - Marker genes dotplot
+5. e16_R1_mut_cluster_dendrogram.png - Hierarchical clustering dendrogram
+6. e16_R1_mut_cluster_correlation.png - Cluster correlation heatmap
+7. e16_R1_mut_correlation_matrix.csv - Correlation matrix data

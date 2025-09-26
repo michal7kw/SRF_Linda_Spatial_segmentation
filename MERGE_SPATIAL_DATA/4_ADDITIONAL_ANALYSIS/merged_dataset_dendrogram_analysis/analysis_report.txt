@@ -1,0 +1,115 @@
+MERGED DATASET DENDROGRAM WITH SAMPLE CONTRIBUTIONS - ANALYSIS REPORT
+===============================================================================
+
+DATASET OVERVIEW:
+- Total cells analyzed: 45,114
+- Total genes: 960
+- Number of samples: 8
+- Number of clusters: 23
+- Analysis date: 2025-08-29 11:23:21
+
+SAMPLES INCLUDED:
+- p7_R1_mut: 5073 cells
+- p7_R2_ctrl: 9333 cells
+- p30_R4p_ctrl: 7910 cells
+- p0_R5p_mut: 7511 cells
+- p0_R6_ctrl: 4445 cells
+- e16_R1_mut: 3019 cells
+- e16_R2_ctrl: 3745 cells
+- p30_R3_mut: 4078 cells
+
+CLUSTERS ANALYZED:
+- Cluster 0: 2460 cells
+- Cluster 1: 3833 cells
+- Cluster 2: 4265 cells
+- Cluster 3: 957 cells
+- Cluster 4: 2752 cells
+- Cluster 5: 1922 cells
+- Cluster 6: 2871 cells
+- Cluster 7: 506 cells
+- Cluster 8: 2712 cells
+- Cluster 9: 3304 cells
+- Cluster 10: 2701 cells
+- Cluster 11: 4158 cells
+- Cluster 12: 2140 cells
+- Cluster 13: 563 cells
+- Cluster 14: 2811 cells
+- Cluster 15: 1581 cells
+- Cluster 16: 1836 cells
+- Cluster 17: 915 cells
+- Cluster 18: 964 cells
+- Cluster 19: 937 cells
+- Cluster 20: 328 cells
+- Cluster 21: 561 cells
+- Cluster 22: 37 cells
+
+HIERARCHICAL CLUSTERING PARAMETERS:
+- Distance metric: Correlation distance
+- Linkage method: Ward linkage
+- Number of clusters in dendrogram: 23
+
+SAMPLE CONTRIBUTION SUMMARY:
+- p7_R1_mut: 5073 total cells, present in 21 clusters, avg contribution 8.7%
+- p7_R2_ctrl: 9333 total cells, present in 20 clusters, avg contribution 22.7%
+- p30_R4p_ctrl: 7910 total cells, present in 20 clusters, avg contribution 17.3%
+- p0_R5p_mut: 7511 total cells, present in 19 clusters, avg contribution 17.4%
+- p0_R6_ctrl: 4445 total cells, present in 21 clusters, avg contribution 9.4%
+- e16_R1_mut: 3019 total cells, present in 19 clusters, avg contribution 11.3%
+- e16_R2_ctrl: 3745 total cells, present in 18 clusters, avg contribution 20.2%
+- p30_R3_mut: 4078 total cells, present in 21 clusters, avg contribution 10.0%
+
+CLUSTER DIVERSITY ANALYSIS:
+- Cluster 0: 2460 cells, 8 samples contributing, dominated by p7_R2_ctrl (72.6%)
+- Cluster 1: 3833 cells, 7 samples contributing, dominated by p0_R5p_mut (85.9%)
+- Cluster 2: 4265 cells, 8 samples contributing, dominated by p30_R4p_ctrl (28.8%)
+- Cluster 3: 957 cells, 8 samples contributing, dominated by p30_R4p_ctrl (37.2%)
+- Cluster 4: 2752 cells, 8 samples contributing, dominated by p0_R6_ctrl (30.0%)
+- Cluster 5: 1922 cells, 8 samples contributing, dominated by p30_R4p_ctrl (23.2%)
+- Cluster 6: 2871 cells, 8 samples contributing, dominated by p0_R5p_mut (31.9%)
+- Cluster 7: 506 cells, 5 samples contributing, dominated by p0_R5p_mut (32.0%)
+- Cluster 8: 2712 cells, 8 samples contributing, dominated by p0_R6_ctrl (26.6%)
+- Cluster 9: 3304 cells, 8 samples contributing, dominated by p30_R4p_ctrl (52.4%)
+- Cluster 10: 2701 cells, 7 samples contributing, dominated by p7_R2_ctrl (75.9%)
+- Cluster 11: 4158 cells, 8 samples contributing, dominated by p30_R4p_ctrl (33.7%)
+- Cluster 12: 2140 cells, 8 samples contributing, dominated by e16_R2_ctrl (50.9%)
+- Cluster 13: 563 cells, 7 samples contributing, dominated by p0_R5p_mut (48.7%)
+- Cluster 14: 2811 cells, 8 samples contributing, dominated by p30_R3_mut (46.5%)
+- Cluster 15: 1581 cells, 7 samples contributing, dominated by p7_R2_ctrl (77.6%)
+- Cluster 16: 1836 cells, 7 samples contributing, dominated by e16_R1_mut (50.8%)
+- Cluster 17: 915 cells, 7 samples contributing, dominated by e16_R1_mut (30.4%)
+- Cluster 18: 964 cells, 6 samples contributing, dominated by p30_R3_mut (28.5%)
+- Cluster 19: 937 cells, 7 samples contributing, dominated by p7_R2_ctrl (46.2%)
+- Cluster 20: 328 cells, 7 samples contributing, dominated by p30_R4p_ctrl (53.4%)
+- Cluster 21: 561 cells, 3 samples contributing, dominated by e16_R2_ctrl (97.5%)
+- Cluster 22: 37 cells, 1 samples contributing, dominated by e16_R2_ctrl (100.0%)
+
+FILES GENERATED:
+1. merged_dataset_dendrogram_with_sample_contributions.png - Main combined visualization
+2. standalone_dendrogram.png - Individual dendrogram plot
+3. standalone_sample_contribution_bars.png - Individual sample contribution bars
+4. standalone_sample_contribution_heatmap.png - Individual sample contribution heatmap
+5. umap_clusters_and_samples.png - UMAP plots (clusters and samples side-by-side)
+6. standalone_umap_by_clusters.png - Individual UMAP colored by clusters
+7. standalone_umap_by_samples.png - Individual UMAP colored by samples
+8. cluster_sample_contributions.csv - Detailed contribution data per cluster
+9. sample_summary_statistics.csv - Summary statistics per sample
+10. cluster_summary_statistics.csv - Summary statistics per cluster
+11. hierarchical_clustering_linkage_matrix.csv - Linkage matrix for reproducibility
+12. dendrogram_cluster_order.csv - Cluster order in dendrogram
+13. analysis_report.txt - This comprehensive report
+
+ANALYSIS METHODOLOGY:
+1. Loaded merged dataset with all samples and clusters
+2. Calculated mean gene expression per cluster across entire dataset
+3. Performed hierarchical clustering using correlation distance and Ward linkage
+4. Computed sample contribution percentages for each cluster
+5. Created dendrogram visualization with color-coded sample contribution bars
+6. Generated sample contribution heatmap showing cluster composition
+7. Produced summary statistics and detailed data exports
+
+INTERPRETATION GUIDELINES:
+- The dendrogram shows similarity relationships between clusters based on gene expression
+- Sample contribution bars show what percentage of each cluster comes from each sample
+- Clusters with high diversity (multiple samples contributing) may represent common cell types
+- Clusters dominated by single samples may represent sample-specific populations
+- The correlation distance metric emphasizes gene expression pattern similarity

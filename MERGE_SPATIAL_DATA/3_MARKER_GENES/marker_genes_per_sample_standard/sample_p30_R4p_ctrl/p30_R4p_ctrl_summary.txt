@@ -1,0 +1,34 @@
+Sample: p30_R4p_ctrl
+================
+Dataset Information:
+- Total cells in sample: 7,910
+- Cells after filtering (≥50 cells/cluster): 7,809
+- Total genes: 960
+- Total clusters: 20
+- Valid clusters (≥50 cells): 15
+ 
+Valid Clusters:
+- Cluster 9: 1732 cells
+- Cluster 11: 1401 cells
+- Cluster 2: 1227 cells
+- Cluster 4: 630 cells
+- Cluster 5: 446 cells
+- Cluster 3: 356 cells
+- Cluster 6: 354 cells
+- Cluster 10: 320 cells
+- Cluster 8: 270 cells
+- Cluster 18: 268 cells
+- Cluster 14: 249 cells
+- Cluster 12: 235 cells
+- Cluster 20: 175 cells
+- Cluster 1: 91 cells
+- Cluster 0: 55 cells
+ 
+Files Generated:
+1. marker_genes.csv - Complete marker gene results
+2. top_10_marker_genes.csv - Top marker genes per cluster
+3. heatmap_p30_R4p_ctrl_marker_genes_heatmap.png - Marker genes heatmap
+4. dotplot_p30_R4p_ctrl_marker_genes_dotplot.png - Marker genes dotplot
+5. p30_R4p_ctrl_cluster_dendrogram.png - Hierarchical clustering dendrogram
+6. p30_R4p_ctrl_cluster_correlation.png - Cluster correlation heatmap
+7. p30_R4p_ctrl_correlation_matrix.csv - Correlation matrix data

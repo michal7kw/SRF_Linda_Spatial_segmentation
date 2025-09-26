@@ -1,0 +1,23 @@
+Sample: p30_R4p_ctrl
+================
+Dataset Information:
+- Total cells in sample: 7,910
+- Total genes: 960
+- Original total clusters found: 23
+- Final total clusters (after reclustering): 26
+- Clusters analyzed for DE (with >1 cell): 26
+
+Cluster 0 Reclustering:
+- Original cluster 0 cells: 858
+- Number of subclusters created: 4
+- Subcluster labels: ['0.0', '0.1', '0.2', '0.3']
+
+Files Generated:
+1. marker_genes_with_cluster0_reclustered.csv - Complete marker gene results
+2. top_30_marker_genes_with_cluster0_reclustered.csv - Top marker genes per cluster
+3. Various UMAP/Spatial visualization plots
+4. heatmap_p30_R4p_ctrl_marker_genes_with_cluster0_reclustered.png - Marker genes heatmap
+5. dotplot_p30_R4p_ctrl_marker_genes_with_cluster0_reclustered.png - Marker genes dotplot
+6. p30_R4p_ctrl_cluster_dendrogram_with_cluster0_reclustered.png - Hierarchical clustering dendrogram
+7. p30_R4p_ctrl_cluster_correlation_with_cluster0_reclustered.png - Cluster correlation heatmap
+8. p30_R4p_ctrl_correlation_matrix_with_cluster0_reclustered.csv - Correlation matrix data

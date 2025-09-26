@@ -1,0 +1,43 @@
+Marker Genes and Cluster Similarity Analysis with Precomputed Cluster 0 Reclustering - Overall Summary
+======================================================================================================
+Analysis completed for 8 samples:
+- p7_R1_mut
+- p7_R2_ctrl
+- p30_R4p_ctrl
+- p0_R5p_mut
+- p0_R6_ctrl
+- e16_R1_mut
+- e16_R2_ctrl
+- p30_R3_mut
+
+Overall Statistics:
+- Total cells across all samples: 45,114
+- Total genes: 960
+- Samples processed: 8
+- Samples with cluster 0 subclusters (precomputed): 8
+
+Per-Sample Results:
+- p7_R1_mut: 5073 cells, 24 original clusters → 34 final clusters, 33 analyzed for DE
+- p7_R2_ctrl: 9333 cells, 24 original clusters → 34 final clusters, 34 analyzed for DE
+- p30_R4p_ctrl: 7910 cells, 23 original clusters → 33 final clusters, 32 analyzed for DE
+- p0_R5p_mut: 7511 cells, 22 original clusters → 32 final clusters, 32 analyzed for DE
+- p0_R6_ctrl: 4445 cells, 24 original clusters → 34 final clusters, 34 analyzed for DE
+- e16_R1_mut: 3019 cells, 23 original clusters → 33 final clusters, 28 analyzed for DE
+- e16_R2_ctrl: 3745 cells, 20 original clusters → 23 final clusters, 22 analyzed for DE
+- p30_R3_mut: 4078 cells, 24 original clusters → 29 final clusters, 25 analyzed for DE
+
+Analysis Parameters:
+- Differential expression method: Wilcoxon rank-sum test
+- Number of marker genes per cluster: 50
+- Distance metric for clustering: Correlation distance
+- Linkage method: Ward
+- Minimum cells per cluster threshold for DE: >1 cell
+- Data source: Precomputed reclustered data from previous pipeline step
+- Cluster column used: leiden_combined_cluster0_reclustered
+
+Output Features:
+- Original UMAP/Spatial plots showing all clusters (when available)
+- Precomputed reclustered UMAP/Spatial plots
+- Subset UMAP/Spatial plots showing only cluster 0 subclusters (when present)
+- Marker gene analysis for all final clusters (including subclusters)
+- Hierarchical clustering and correlation analysis

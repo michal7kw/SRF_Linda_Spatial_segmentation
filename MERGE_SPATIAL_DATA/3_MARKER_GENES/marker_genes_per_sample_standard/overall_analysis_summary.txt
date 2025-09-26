@@ -1,0 +1,34 @@
+Marker Genes and Cluster Similarity Analysis - Overall Summary
+============================================================
+ 
+Analysis completed for 8 samples:
+- p7_R1_mut
+- p7_R2_ctrl
+- p30_R4p_ctrl
+- p0_R5p_mut
+- p0_R6_ctrl
+- e16_R1_mut
+- e16_R2_ctrl
+- p30_R3_mut
+ 
+Overall Statistics:
+- Total cells across all samples: 45,114
+- Total genes: 960
+- Samples processed: 8
+ 
+Per-Sample Results:
+- p7_R1_mut: 5073 cells, 12 valid clusters (≥50 cells)
+- p7_R2_ctrl: 9333 cells, 16 valid clusters (≥50 cells)
+- p30_R4p_ctrl: 7910 cells, 15 valid clusters (≥50 cells)
+- p0_R5p_mut: 7511 cells, 16 valid clusters (≥50 cells)
+- p0_R6_ctrl: 4445 cells, 14 valid clusters (≥50 cells)
+- e16_R1_mut: 3019 cells, 13 valid clusters (≥50 cells)
+- e16_R2_ctrl: 3745 cells, 11 valid clusters (≥50 cells)
+- p30_R3_mut: 4078 cells, 13 valid clusters (≥50 cells)
+ 
+Analysis Parameters:
+- Differential expression method: Wilcoxon rank-sum test
+- Number of marker genes per cluster: 50
+- Distance metric for clustering: Correlation distance
+- Linkage method: Ward
+- Minimum cells per cluster threshold: 50

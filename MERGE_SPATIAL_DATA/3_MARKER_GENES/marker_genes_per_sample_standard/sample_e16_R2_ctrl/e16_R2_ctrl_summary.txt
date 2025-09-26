@@ -1,0 +1,30 @@
+Sample: e16_R2_ctrl
+================
+Dataset Information:
+- Total cells in sample: 3,745
+- Cells after filtering (≥50 cells/cluster): 3,684
+- Total genes: 960
+- Total clusters: 18
+- Valid clusters (≥50 cells): 11
+ 
+Valid Clusters:
+- Cluster 12: 1089 cells
+- Cluster 11: 736 cells
+- Cluster 21: 547 cells
+- Cluster 2: 303 cells
+- Cluster 14: 191 cells
+- Cluster 3: 183 cells
+- Cluster 6: 179 cells
+- Cluster 13: 146 cells
+- Cluster 17: 134 cells
+- Cluster 19: 122 cells
+- Cluster 4: 54 cells
+ 
+Files Generated:
+1. marker_genes.csv - Complete marker gene results
+2. top_10_marker_genes.csv - Top marker genes per cluster
+3. heatmap_e16_R2_ctrl_marker_genes_heatmap.png - Marker genes heatmap
+4. dotplot_e16_R2_ctrl_marker_genes_dotplot.png - Marker genes dotplot
+5. e16_R2_ctrl_cluster_dendrogram.png - Hierarchical clustering dendrogram
+6. e16_R2_ctrl_cluster_correlation.png - Cluster correlation heatmap
+7. e16_R2_ctrl_correlation_matrix.csv - Correlation matrix data

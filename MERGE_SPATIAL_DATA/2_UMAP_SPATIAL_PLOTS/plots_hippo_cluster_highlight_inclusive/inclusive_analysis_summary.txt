@@ -1,0 +1,50 @@
+INCLUSIVE ANALYSIS SUMMARY
+============================================================
+
+This file shows results from inclusive analysis where all clusters
+are analyzed regardless of cell count.
+
+Sample: p7_R1_mut
+  Total clusters found: 21
+  Large clusters analyzed (≥50 cells): 12 - ['1', '2', '4', '5', '6', '8', '9', '11', '12', '14', '17', '19']
+  Small clusters analyzed (<50 cells): 9 - ['0', '3', '7', '10', '13', '15', '16', '18', '20']
+
+Sample: p7_R2_ctrl
+  Total clusters found: 20
+  Large clusters analyzed (≥50 cells): 16 - ['0', '1', '2', '4', '5', '6', '8', '10', '11', '14', '15', '16', '17', '18', '19', '20']
+  Small clusters analyzed (<50 cells): 4 - ['3', '7', '9', '12']
+
+Sample: p30_R4p_ctrl
+  Total clusters found: 20
+  Large clusters analyzed (≥50 cells): 15 - ['0', '1', '2', '3', '4', '5', '6', '8', '9', '10', '11', '12', '14', '18', '20']
+  Small clusters analyzed (<50 cells): 5 - ['13', '15', '16', '19', '21']
+
+Sample: p0_R5p_mut
+  Total clusters found: 19
+  Large clusters analyzed (≥50 cells): 16 - ['0', '1', '2', '3', '4', '5', '6', '7', '8', '11', '12', '13', '14', '16', '17', '18']
+  Small clusters analyzed (<50 cells): 3 - ['9', '10', '15']
+
+Sample: p0_R6_ctrl
+  Total clusters found: 21
+  Large clusters analyzed (≥50 cells): 14 - ['2', '4', '5', '6', '7', '8', '9', '10', '11', '12', '14', '15', '16', '19']
+  Small clusters analyzed (<50 cells): 7 - ['0', '1', '3', '13', '17', '18', '20']
+
+Sample: e16_R1_mut
+  Total clusters found: 19
+  Large clusters analyzed (≥50 cells): 13 - ['2', '5', '6', '7', '8', '9', '12', '13', '15', '16', '17', '19', '20']
+  Small clusters analyzed (<50 cells): 6 - ['0', '1', '3', '4', '11', '14']
+
+Sample: e16_R2_ctrl
+  Total clusters found: 18
+  Large clusters analyzed (≥50 cells): 11 - ['2', '3', '4', '6', '11', '12', '13', '14', '17', '19', '21']
+  Small clusters analyzed (<50 cells): 7 - ['0', '5', '8', '9', '10', '20', '22']
+
+Sample: p30_R3_mut
+  Total clusters found: 21
+  Large clusters analyzed (≥50 cells): 13 - ['0', '3', '5', '6', '8', '9', '10', '11', '14', '16', '17', '18', '19']
+  Small clusters analyzed (<50 cells): 8 - ['1', '2', '4', '12', '13', '15', '20', '21']
+
+OVERALL SUMMARY:
+  Total clusters analyzed: 159
+  Total large clusters: 110
+  Total small clusters included: 49
