@@ -29,6 +29,11 @@ DATA/**/*
 *.pdf
 *.md
 
+# Exceptions: top-level README and the images it embeds (for GitHub display)
+!/README.md
+!/MERGE_SPATIAL_DATA/2_UMAP_SPATIAL_PLOTS/plots_hippo_cluster_highlight_inclusive_new_clusters/spatial_leiden_new_by_sample.png
+!/MERGE_SPATIAL_DATA/sample_collages_standard/collage_*.png
+
 ################################################################################
 # Scratch / transient directories
 ################################################################################
